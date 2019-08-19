@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testFrame Suite]">
+  <listeners>
+    <listener class-name="com.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="tFrame Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="authenticationLockOut"/>
+          <include name="authLockoutpwd"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testCases.TC_LoginTest_001 -->
+      <class name="com.testCases.TC_Links_003">
+        <methods>
+          <include name="linkChk"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testCases.TC_Links_003 -->
+      <class name="com.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- tFrame Test1(failed) -->
+</suite> <!-- Failed suite [testFrame Suite] -->

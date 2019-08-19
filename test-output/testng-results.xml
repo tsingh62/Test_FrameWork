@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testFrame Suite" duration-ms="19328" started-at="2019-08-19T01:41:22Z" finished-at="2019-08-19T01:41:41Z">
+    <groups>
+    </groups>
+    <test name="tFrame Test1" duration-ms="19328" started-at="2019-08-19T01:41:22Z" finished-at="2019-08-19T01:41:41Z">
+      <class name="com.testCases.TC_FrgPwd_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_FrgPwd_004@5622fdf]" name="setup" is-config="true" duration-ms="7156" started-at="2019-08-19T01:41:22Z" finished-at="2019-08-19T01:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FrgPwd()[pri:6, instance:com.testCases.TC_FrgPwd_004@5622fdf]" name="FrgPwd" duration-ms="5337" started-at="2019-08-19T01:41:29Z" finished-at="2019-08-19T01:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrgPwd -->
+        <test-method status="PASS" signature="verifyRtBtn()[pri:7, instance:com.testCases.TC_FrgPwd_004@5622fdf]" name="verifyRtBtn" duration-ms="6595" started-at="2019-08-19T01:41:34Z" finished-at="2019-08-19T01:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRtBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TC_FrgPwd_004@5622fdf]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-08-19T01:41:41Z" finished-at="2019-08-19T01:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_FrgPwd_004 -->
+    </test> <!-- tFrame Test1 -->
+  </suite> <!-- testFrame Suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testFrame Suite">
+
+<!-- <suite name="TestSuite" thread-count="1" parallel="classes" preserve-order="true">  -->
+	 	<listeners>			<!-- packagename.classname  (for extent reports) -->
+				<listener class-name="com.utilities.Reporting"/>
+		</listeners>    
+		
+ <test name="tFrame Test1" thread-count="5">
+		<parameter name="browser" value="chrome" />
+  
+   <classes> 
+   			<!-- packagename.classname   -->
+  		 <class name="com.testCases.TC_LoginTest_001"/>   
+   	 <class name="com.testCases.TC_LoginDDT_002"/>   
+     <class name="com.testCases.TC_Links_003"/>    
+        <class name="com.testCases.TC_FrgPwd_004"/>   
+       <class name="com.testCases.TC_ColourChange_005"/>  
+        <class name="com.testCases.TC_verifyNavigatePage_006"/> 
+       <class name="com.testCases.TC_verifyTab_007"/> 
+  	<class name="com.testCases.TC_verifyCookies_008"/> 
+  
+     
+    </classes>
+  </test> <!--Test  -->
+  
+  <!-- 
+	<test name="tFrame Test2" thread-count="5">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testCases.TC_LoginTest_001"/>
+			<class name="com.testCases.TC_LoginDDT_002"/> 
+		</classes>
+	</test> --> <!-- Test --> 
+	
+
+</suite> <!-- Suit --> 
